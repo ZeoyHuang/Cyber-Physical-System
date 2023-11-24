@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>1655217120710r5895477019670405</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2021-05-25</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>4326</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>6.14(3.0.1)</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Cellular_Towers</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>This dataset serves as base information for use in GIS systems for general planning, analytical, and research purposes. It is not intended for engineering work or to legally define FCC licensee data or FCC market boundaries. The material in these data and text files are provided as-is. The FCC disclaims all warranties with regard to the contents of these files, including their fitness. In no event shall the FCC be liable for any special, indirect, or consequential damages whatsoever resulting from loss or use, data, or profits, whether in connection with the use or performance of the contents of these files, action of contract, negligence, or other action arising out of, or in connection with the use of the contents of these files. It is known that there are some errors in the licensing information - Latitude, Longitude and Ground Elevation data as well as frequency assignment data from which these files were generated. </gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>This dataset represents cellular tower locations as recorded by the Federal Communications Commission This feature class serves as base information for use in GIS systems for general planning, analytical, and research purposes. It is not intended for engineering work or to legally define FCC licensee data or FCC market boundaries. The material in these data and text files are provided as-is. The FCC disclaims all warranties with regard to the contents of these files, including their fitness. In no event shall the FCC be liable for any special, indirect, or consequential damages whatsoever resulting from loss or use, data or profits, whether in connection with the use or performance of the contents of these files, action of contract, negligence, or other action arising out of, or in connection with the use of the contents of these files. It is known that there are some errors in the licensing information - Latitude, Longitude and Ground Elevation data as well as frequency assignment data from which these MapInfo files were generated.Data source: Federal Communications Commission Data and details are hosted by HIFLD as received from the data provider. For questions /feedback, please email hifld@hq.dhs.gov</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>FCC</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Downloadable Data</gco:CharacterString>
+                    </keyword>
+                    <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cellular</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Towers</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>FCC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD open</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD Communication</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cellular</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Towers</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>FCC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD open</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD Communication</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cellular</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Towers</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>FCC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD open</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD Communication</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cellular</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Towers</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>FCC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD open</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD Communication</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Cellular</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Towers</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>FCC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD open</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>HIFLD Communication</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Public Use</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <environmentDescription>
+                <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-177.74169731499154</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-53.167619189999954</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>18.512566516316706</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>71.92084775941345</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <contentInfo>
+        <MD_FeatureCatalogueDescription>
+            <complianceCode>
+                <gco:Boolean>true</gco:Boolean>
+            </complianceCode>
+            <includedWithDataset>
+                <gco:Boolean>true</gco:Boolean>
+            </includedWithDataset>
+            <featureCatalogueCitation gco:nilReason="missing"/>
+        </MD_FeatureCatalogueDescription>
+    </contentInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>File Geodatabase Feature Class</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
